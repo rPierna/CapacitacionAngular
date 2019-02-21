@@ -1,0 +1,352 @@
+body {	
+	font-family:Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+	}
+#contenido { width: 1200px; margin: 0 auto;}
+
+header{
+    background-color: orange;
+	border-bottom:1px solid #999999;
+	box-shadow:0 0.3em 0.3em 0 #000000;
+	height:11.7em;
+	position:relative;
+	}
+	#logo{
+		position:absolute;
+		left:17em;
+		top:1em;
+		}
+	#buscador{
+		float:right;
+		margin:3.1em 2.6em 3.5em 0;
+		width:14.6em;
+		}
+		input{
+			border:none;
+			border-radius:0.3em;
+			box-shadow:none;
+			float:left;
+			font-size:1em;
+			}
+			input.caja-texto{
+				background:antiquewhite;
+				border-bottom-right-radius:0;
+				border-top-right-radius:0;
+				color:#545454;
+				font-style:italic;
+				padding:0.5em 1em;
+				width:12.35em;
+				}
+				input.boton{
+					background:#cccccc url("../img/lupa.png") no-repeat center center;
+					border-bottom-left-radius:0;
+					border-top-left-radius:0;
+					color:#545454;
+					padding:0.5em 0;
+					width:35px;
+					}
+	nav{
+		background:bisque;
+		clear:both;
+		float:right;
+		padding:0 1em;
+		text-align:right;
+		width:660px;
+		}
+		nav A{
+			border-left:1px solid #999999;
+			color:#ffffff;
+			display:inline-block;
+			font-size:1.2em;
+			margin:0 0 0 1em;
+			padding:0.6em 0 0.6em 1.2em;
+			text-decoration:none;
+			}
+			nav A:first-child{
+				border-left:none;
+				}
+
+section{
+    float: left;
+    width: 60%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.formulario H2,
+.formulario H3{
+	color:#000000;
+	font-size:1.7em;
+	font-weight:bold;
+	}
+.formulario H2{
+	font-size:1.9em;
+	margin:2.5em auto 0 auto;
+	text-align:left;
+	width:623px;
+	}
+.formulario H3{
+	font-size:1.4em;
+	margin:0 0 1em 0;
+	text-align:center;
+	}
+.formulario section{
+	float:left;
+	margin:3em 0;
+	width:100%;
+	}
+	.formulario section form{
+		margin:1.3em auto;
+		padding:0 3em;
+		width:716px;
+		}
+		.formulario section form DIV{
+			float:left;
+			margin:0 0 1em 0;
+			width:100%;
+			}
+		.formulario section form DIV.aficiones,
+		.formulario section form DIV.comentarios{
+			border-top:2px solid orange;
+			padding:2.5em 0 0 0;
+			}
+		.formulario section form DIV.aficiones .left,
+		.formulario section form DIV.aficiones .right{
+			float:left;
+			margin:0 1.5em 0 0;
+			width:48%;
+			}
+		.formulario section form DIV.aficiones .right{
+			margin:0;
+			}
+			.formulario section form DIV DIV{
+				float:left;
+				margin:0 0 0.3em 0;
+				width:100%;
+				}
+				.formulario section form DIV DIV LABEL,
+				.formulario section form DIV.comentarios LABEL{
+					float:left;
+					font-size:1.1em;
+					margin:0.4em 0.8em 0.4em 0;
+					min-width:4.5em;
+					text-align:right;
+					width:auto;
+					}
+				.formulario section form DIV DIV INPUT,
+				.formulario section form DIV.aficiones .left SELECT,
+				.formulario section form DIV.aficiones .right SELECT,
+				.formulario section form DIV.comentarios TEXTAREA{
+					border:3px solid orange;
+					border-radius:0.3em;
+					float:left;
+					padding:0.35em 1em;
+					width:84%;
+					}
+			.formulario section form DIV DIV.telefono,
+			.formulario section form DIV DIV.email{
+				width:50%;
+				}
+				.formulario section form DIV DIV.telefono INPUT,
+				.formulario section form DIV DIV.email INPUT{
+					width:68%;
+					}			
+			.formulario section form DIV.aficiones .left P,
+			.formulario section form DIV.aficiones .right P{
+				font-size:1.1em;
+				margin:0 0 0.5em 0;
+				}
+			.formulario section form DIV.aficiones .left DIV,
+			.formulario section form DIV.aficiones .right DIV{
+				margin:0 0 0.5em 0;
+				}
+				.formulario section form DIV.aficiones .left LABEL,
+				.formulario section form DIV.aficiones .right LABEL{
+					margin:0 0.8em 0 0;
+					text-align:left;
+					}
+				.formulario section form DIV.aficiones .left INPUT,
+				.formulario section form DIV.aficiones .right INPUT{
+					float:left;
+					width:auto;
+					}
+			.formulario section form DIV.aficiones .left .select,
+			.formulario section form DIV.aficiones .right .select{
+				margin:1em 0 0 0;
+				}
+				.formulario section form DIV.aficiones .left SELECT,
+				.formulario section form DIV.aficiones .right SELECT{
+					width:63%;
+					}
+			.formulario section form DIV.comentarios TEXTAREA{
+				font-family:Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+				font-size:1em;
+				width:100%;
+				}
+			.formulario section form DIV.comentarios LABEL{
+				margin: 0.4em 0 0.4em 0;
+				text-align: left;
+				width:100%;
+				}
+		.formulario section form .boton{
+			float:left;
+			margin:1em 0;
+			width:100%;
+			}
+			.formulario section form .boton BUTTON{
+				color:#ffffff;
+				background:orange;
+				border:none;
+				border-radius:0.3em;
+				display:block;
+				font-size:1.1em;
+				margin:0 auto;
+				padding:0.5em 1em;
+				width:13em;
+				}				
+				.formulario section form .boton BUTTON:hover{
+					background:#FF8F21;
+					}
+aside{
+    float: right;
+    width: 30%;
+}
+.img_float{
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1{
+    font-size: 300%;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 150%;
+}
+
+.boton_nav {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: bisque;
+    position: relative;
+    bottom:0px;
+    right:0px;
+  }
+
+  .caja {
+    border: 3px solid orange;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    overflow: auto;
+  }
+
+  .titulo_caja {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    background: orange;
+    margin: 0 0 10px;
+    overflow: hidden;
+    padding: 10px;
+    }
+footer{
+	background:grey;
+	float:left;
+	padding:2em 2em 1em 2em;
+	width:100%;
+		}
+	footer .left,
+	footer .right{
+		float:left;
+		margin:0 2em 0 0;
+		width:48%;
+		}
+		footer .left P{
+			color:#ffffff;
+			font-size:0.8em;
+			margin:0 0 1.5em 0;
+			}
+		footer .left P:last-child{
+			margin:0;
+			}
+		footer .left P.direccion{
+			font-style:italic;
+			}
+	footer .right{
+		margin:0;
+		}
+		footer .right .enlaces,
+		footer .right .media{
+			float:right;
+			margin:0 0 1.5em 0;
+			width:auto;
+			}
+			footer .right .enlaces A,
+			footer .right .enlaces SPAN{
+				float:left;
+				margin:0 0.3em;
+				width:auto;
+				}
+			footer .right .enlaces A{
+				color:#ffffff;
+				font-size:0.8em;
+				text-decoration:underline;
+				}
+				footer .right .enlaces A:hover{					
+					text-decoration:none;
+					}
+			footer .right .enlaces SPAN.punto{
+				color:#ffffff;
+				font-size:0.3em;
+				margin:1em 0.3em;
+				}
+		footer .right .media{
+			clear:both;
+			float:right;
+			margin:0;
+			width:auto;
+			}
+			footer .right .media DIV{
+				float:left;
+				margin:0 0 0 0.5em;
+				text-align:right;
+				width:auto;
+				}
+				footer .right .media A{
+					float:left;
+					height:44px;
+					text-decoration:none;
+					width:45px;
+					}
+				footer .right .media .facebook A{
+					background:transparent url("../img/facebook.jpg") no-repeat left top;
+					}
+					footer .right .media .facebook A:hover{					
+						background:transparent url("../img/facebook.jpg") no-repeat left bottom;
+						}
+				footer .right .media .twitter A{
+					background:transparent url("../img/twitter.jpg") no-repeat left top;
+					}
+					footer .right .media .twitter A:hover{					
+						background:transparent url("../img/twitter.jpg") no-repeat left bottom;
+						}
+				footer .right .media .pinterest A{
+					background:transparent url("../img/pinterest.jpg") no-repeat left top;
+					}
+					footer .right .media .pinterest A:hover{					
+						background:transparent url("../img/pinterest.jpg") no-repeat left bottom;
+						}
+				footer .right .media .google-plus A{
+					background:transparent url("../img/google-plus.jpg") no-repeat left top;
+					}
+					footer .right .media .google-plus A:hover{					
+						background:transparent url("../img/google-plus.jpg") no-repeat left bottom;
+						}
